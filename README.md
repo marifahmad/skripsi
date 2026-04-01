@@ -61,6 +61,10 @@ Menggunakan Cosine Similarity:
 - Visualisasi Neo4j (PyVis + NetworkX)
 - Filter node (Argumen, Konsep, Tokoh, dll)
 
+
+---
+
+### ⚙️ Panduan Instalasi & Persiapan Lingkungan
 ---
 
 ## 📂 Struktur Repositori
@@ -76,6 +80,4 @@ Menggunakan Cosine Similarity:
 ├── 📁 venv/
 └── 📁 chroma_db_tahafut/
 
----
 
-### ⚙️ Panduan Instalasi & Persiapan Lingkungan
