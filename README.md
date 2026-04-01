@@ -27,7 +27,7 @@ Sistem ini menjalankan dua pipeline secara paralel:
 
 - **Penyimpanan:** ChromaDB  
 - **Pencarian:** Semantic Search (MMR)  
-- Embedding: `text-embedding-3-large`
+- **Embedding:** `text-embedding-3-large`
 
 ---
 
@@ -61,77 +61,11 @@ Menggunakan Cosine Similarity:
 - Visualisasi Neo4j (PyVis + NetworkX)
 - Filter node (Argumen, Konsep, Tokoh, dll)
 
-
 ---
 
-### ⚙️ Panduan Instalasi & Persiapan Lingkungan
-1. Kloning Repositori
-  git clone https://github.com/marifahmad/skripsi.git
-  cd skripsi
-2. Buat & Aktifkan Virtual Environment
-  Sangat disarankan untuk mengisolasi dependensi proyek agar tidak bentrok dengan proyek Python lainnya.
-  
-  Windows:
-  python -m venv venv
-  venv\Scripts\activate
+## ⚙️ Panduan Instalasi & Persiapan Lingkungan
 
-3. Buat File requirements.txt & Instal Library
-  streamlit
-  numpy
-  pandas
-  networkx
-  pyvis
-  python-dotenv
-  langchain
-  langchain-openai
-  langchain-community
-  chromadb
-  neo4j
-  scikit-learn
-
-Kemudian, instal seluruh dependensi dengan perintah:
-pip install -r requirements.txt
-
-4. Konfigurasi Environment (.env)
-
-   Buat sebuah file bernama .env di direktori utama proyek. File ini mengatur koneksi ke OpenAI dan Database. Isi dengan kredensial Anda yang sah:
-   ```text
-  # Kredensial OpenAI (Untuk LLM & Embeddings)
-  OPENAI_API_KEY=sk-kunci-rahasia-openai-anda
-  
-  # Path ke direktori ChromaDB lokal
-  CHROMA_PATH=./chroma_db_tahafut
-  
-  # Kredensial Database Neo4j (Sesuaikan dengan AuraDB atau Desktop)
-  NEO4J_URI=bolt://localhost:7687
-  NEO4J_USERNAME=neo4j
-  NEO4J_PASSWORD=password-neo4j-anda
-
-5. Persiapan Database
-
-   ChromaDB: Pastikan folder chroma_db_tahafut sudah berada di direktori proyek dan berisi data vektor dari kitab Tahafut al-Falasifah.
-   Neo4j: Pastikan server Neo4j Anda sedang berjalan dan graf pengetahuan (node & relasi) sudah dibuat/di-ingest ke dalam database tersebut.
-  
-  6. 🚀 Menjalankan Aplikasi
-     streamlit run app.py
-     
-Terminal akan menampilkan Network URL. Buka browser web Anda dan akses:
-👉 http://localhost:8501
-    
-   
----
-
-## 📂 Struktur Repositori
-
-```text
-📁 root_directory/
-│
-├── 📄 app.py
-├── 📄 requirements.txt
-├── 📄 .env
-├── 📄 hasil_evaluasi_human.csv
-│
-├── 📁 venv/
-└── 📁 chroma_db_tahafut/
-
-
+### 1. Kloning Repositori
+```bash
+git clone https://github.com/marifahmad/skripsi.git
+cd skripsi
