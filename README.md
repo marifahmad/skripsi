@@ -95,6 +95,7 @@ pip install -r requirements.txt
 4. Konfigurasi Environment (.env)
 
    Buat sebuah file bernama .env di direktori utama proyek. File ini mengatur koneksi ke OpenAI dan Database. Isi dengan kredensial Anda yang sah:
+   ```text
   # Kredensial OpenAI (Untuk LLM & Embeddings)
   OPENAI_API_KEY=sk-kunci-rahasia-openai-anda
   
