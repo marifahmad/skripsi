@@ -69,3 +69,5 @@ Menggunakan Cosine Similarity:
 ```bash
 git clone https://github.com/marifahmad/skripsi.git
 cd skripsi
+
+### 2. Buat & Aktifkan Virtual Environment
