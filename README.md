@@ -75,3 +75,7 @@ Menggunakan Cosine Similarity:
 │
 ├── 📁 venv/
 └── 📁 chroma_db_tahafut/
+
+---
+
+### ⚙️ Panduan Instalasi & Persiapan Lingkungan
