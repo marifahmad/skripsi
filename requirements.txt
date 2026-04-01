@@ -1,0 +1,12 @@
+streamlit
+numpy
+pandas
+networkx
+pyvis
+python-dotenv
+langchain
+langchain-openai
+langchain-community
+chromadb
+neo4j
+scikit-learn
